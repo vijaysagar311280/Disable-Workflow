@@ -2,12 +2,12 @@ name: Disable Workflow
 
 on:
   push:
-      branches: [ main ]
+    branches: [ main ]
 
 jobs:
   disable:
-      run-on: ubantu-latesh
+    runs-on: ubuntu-latest
 
-      steps:
-         - name: Vijay Sagar
-           run: echo "Disable Workflow Video Depops"
+    steps:
+      - name: Vijay Sagar
+        run: echo "Disable Workflow Video DevOps"
