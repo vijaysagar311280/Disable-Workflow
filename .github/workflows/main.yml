@@ -1,0 +1,13 @@
+name: Disable Workflow
+
+on:
+  push:
+      branches: [ main ]
+
+jobs:
+  disable:
+      run-on: ubantu-latesh
+
+      steps:
+         - name: VijaySagar
+         run: echo "Disable Workflow Video Depops"
